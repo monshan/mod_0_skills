@@ -1,0 +1,14 @@
+Class: Wait Staff
+
+Attributes:
+name (string)
+age (integer)
+priorExperience (boolean)
+section (array, could have either integer or string type data to represent the area/tables of the restaurant that wait staff is in charge of for any particular work day)
+
+
+Methods:
+giveGreeting (returns a phrase with reference to the 'name' and/or 'age' variable)
+clearTable (changes another boolean related to the tables assigned in the 'section' variable)
+addExperience (can change priorExperience variable from true to false after passing a certain threshold of time with the restaurant)
+reAssignTable (adds/takes away/changes the 'section' array)

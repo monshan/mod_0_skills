@@ -1,0 +1,14 @@
+Class: Staff Uniforms
+
+Attributes:
+staffDepartment (string)
+currentOwner (string)
+size (integer)
+cleanliness (boolean)
+uniformParts (array)
+
+Methods:
+reAssignDepartment (modifies staffDeparment string)
+reAssignOwner (modifies the currentOwner string)
+wash (modifies the cleanliness boolean)
+manageParts (modifies the uniformParts array)

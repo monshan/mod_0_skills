@@ -1,0 +1,13 @@
+Object: waitStaff06
+
+Attributes:
+var name = "David French"
+var age = 25
+var priorExperience = false
+var section = ["patio01", "patio02", "patio03", "mainDiningBooth06"]
+
+Methods
+giveGreeting -> return("Good Evening folks, my name is ${name} and I'll be taking care of you this evening")
+clearTable -> "patio01", set = true
+addExperience -> (after 6 months) priorExperience = true
+reAssignTable -> var section = ["patio01", "patio04", "mainDiningBooth03"]

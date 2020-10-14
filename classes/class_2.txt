@@ -3,7 +3,6 @@ Class: Staff Uniforms
 Attributes:
 staffDepartment (string)
 currentOwner (string)
-size (integer)
 cleanliness (boolean)
 uniformParts (array)
 

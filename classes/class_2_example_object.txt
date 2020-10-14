@@ -1,0 +1,13 @@
+Object: lineCookUniform
+
+Attributes:
+var staffDepartment = "Line Cook"
+var currentOwner = "Greg Welsh"
+var cleanliness = false
+var uniformParts = ["apron", "toque", "trousers"]
+
+Methods:
+reAssignDepartment -> staffDepartment = "Sous Chef"
+reAssignOwner -> currentOwner = "Nate Lawson"
+wash -> cleanliness = true
+manageParts -> ["neckerchief", "apron", "undershirt"]

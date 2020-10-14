@@ -1,0 +1,11 @@
+FE - JavaScript
+
+var food = "pad thai"
+var is_delicious = true
+food = "tom yum soup"
+var num2 = 17
+var num7 = 31
+var quotient = num2 / num7
+var songs = ["Lemonade", "Mood", "WAP"]
+songs.shift();
+food.length;
